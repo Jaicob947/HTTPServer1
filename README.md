@@ -1,9 +1,37 @@
-# libevent_test_http_srv
-C++ http server samples based on libevent
+#ServerHTTP
+**Лабораторная работа #7** 
+**Простейший web-сервер своими руками на С++**
 
-## Posts about libevent_test_http_srv
-- [Lightweight HTTP Server in less than 40 Lines on libevent and C++11](https://kukuruku.co/post/lightweight-http-server-in-less-than-40-lines-on-libevent-and-c-11/)  
-- [Свой http-сервер менее чем в 40 строк кода на libevent и C++11](https://habrahabr.ru/post/217437/)  
+**Цель:**
+ Изучить возможности языка программирования С++ для построения настоящего веб-приложения.
 
-**NOTE:**  
-The [MIF](https://github.com/tdv/mif) project includes as part a some ideas from this test project for http transport demonstrated in [http](https://github.com/tdv/mif/tree/master/examples/http) example.  
+**Ход работы:**
+1.	Мною был создан данный git-репозиторий.
+2.	В созданный репозиторий я подключил данные из https://github.com/tdv/libevent_test_http_srv
+3.	А так же клонировал проект в рабочий каталог на своем сервере
+4.	Настроил vscode для работы с проектом:
+
+Для первого примера я создал файлы:
+
+a)	tasks.json – конфигурация для компиляции первого примера.
+
+Данный файл был создан путем "Настройки задачи".
+
+b)	launch.json – конфигурация для запуска веб-приложения.
+
+Данный файл был создан путем "Отладки".
+
+5. 	Далее я скомпилировал и запустил веб-приложение, проверил работоспособность, установил пакет командой libevent. 
+
+
+libevent- библиотека для асинхронного ввода/вывода, на которой строится HTTP-сервер, управляемый событиями.
+
+# sudo apt-get install libevent-dev
+
+
+6.	Дополнил конфигурацию vscodeдля работы со вторым  и третьим примерами.
+
+**Вывод:** 
+
+В ходе данной работы мною были изучены возможности языка программирования С++ для построения настоящего веб-приложения.
+
